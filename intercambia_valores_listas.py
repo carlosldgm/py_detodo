@@ -5,6 +5,7 @@ b = [4,5,6]
 print("Valores originales")
 print(f"a {a}")
 print(f"b {b}")
+#de esta forma se crea un nuevo objeto
 c = a[:]
 a = b[:]
 b = c[:]
